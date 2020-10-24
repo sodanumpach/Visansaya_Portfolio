@@ -1,6 +1,6 @@
 const express = require( 'express'); 
 const router = express. Router();
-const myData = require('../data')
+const myData = require('../data2')
 
 router.get('/',(req,res)=>{
     res.render('index',{myData});
